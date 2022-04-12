@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* General Settings */
+html{
+  font-size: 62.5%;
+}
+
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.today-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.today-section__today-see-all{
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.today-see-all__today{
+  position: absolute;
+  left: 0px;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.today-see-all__see-all{
+  position: absolute;
+  right: 0px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #0066FF;
+}
+
+.today-section__todos{
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}

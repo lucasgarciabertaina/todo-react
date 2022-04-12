@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* General Settings */
+html{
+  font-size: 62.5%;
+}
+
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.todos__todo{
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 60px
+}
+
+.todo__image{
+  width: 45px;
+  height: 45px;
+  margin-right: 11px;
+}
+
+.todo__activity-type{
+  display: flex;
+  flex-direction: column;
+  width: calc(75% - 45px);
+}
+
+.todo__activity{
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.todo__type{
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.todo__check{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #1E1E2D;
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* General Settings */
+html{
+  font-size: 62.5%;
+}
+
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  padding-top: 54px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nav__profile{
+  position: relative;
+  display: flex;
+  width: 50%;
+  height: 50px;
+  align-items: center;
+}
+
+.profile__photo{
+  width: 50px;
+  height: 50px;
+  margin-right: 16px;
+}
+
+.profile__welcome{
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #7E848D;
+}
+
+.profile__name{
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.search{
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  background-color: #1E1E2D;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 20px;
+}
+
+.search__icon{
+  width: 22px;
+  height: 22px;
+}
